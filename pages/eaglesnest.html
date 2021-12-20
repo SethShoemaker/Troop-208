@@ -19,25 +19,25 @@
     <div class='contentContainer'>
         <div class='eaglesHeader'>
             <h1>The Eagles' Nest</h1>
-        </div>
-        <div class='sortPanel'>
-            <label for='sort'>
-                Sort by:
-            </label>
-            <select id='sort' onchange='test(this.value)'>
-                <option value='sortOld'>
-                    Oldest to Newest
-                </option>
-                <option value='sortNew'>
-                    Newest to Oldest
-                </option>
-                <option value='nameAZ'>
-                    Last Name A-Z
-                </option>
-                <option value='nameZA'>
-                    Last Name Z-A
-                </option>
-            </select>
+            <div class='sortPanel'>
+                <label for='sort'>
+                    Sort by:
+                </label>
+                <select id='sort' onchange='test(this.value)'>
+                    <option value='sortOld'>
+                        Oldest to Newest
+                    </option>
+                    <option value='sortNew'>
+                        Newest to Oldest
+                    </option>
+                    <option value='nameAZ'>
+                        Last Name A-Z
+                    </option>
+                    <option value='nameZA'>
+                        Last Name Z-A
+                    </option>
+                </select>
+            </div>
         </div>
         <ul id='eaglesList'>
             <li class='eaglesItems' data-lastName='iacovina' data-order='aaa'>
