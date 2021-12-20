@@ -1,0 +1,12 @@
+.calendar {
+  display: block;
+  margin: 140px auto;
+  height: 600px;
+  width: 95vw;
+  max-width: 1200px;
+}
+@media screen and (max-width: 850px) {
+  .calendar {
+    margin: 130px auto;
+  }
+}

@@ -1,0 +1,139 @@
+.eaglesHeader {
+  min-height: 300px;
+  height: calc(100vh - 100px);
+  background-image: url(../images/eagle.svg);
+  background-size: cover;
+  background-position: right center;
+  border-bottom: 2px solid black;
+}
+@media screen and (min-width: 520px) {
+  .eaglesHeader {
+    height: calc(100vh - 75px);
+  }
+}
+.eaglesHeader h1 {
+  color: white;
+  margin: 0;
+  padding-top: 14px;
+  font-size: 45px;
+  text-align: center;
+  cursor: default;
+}
+@media screen and (min-width: 430px) {
+  .eaglesHeader h1 {
+    font-size: 63px;
+  }
+}
+@media screen and (min-width: 620px) {
+  .eaglesHeader h1 {
+    font-size: 90px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .eaglesHeader h1 {
+    font-size: 110px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .eaglesHeader h1 {
+    font-size: 120px;
+  }
+}
+.sortPanel {
+  text-align: right;
+  margin: 50px 0px 0 0px;
+  border-bottom: 2px solid #000;
+}
+.sortPanel label {
+  line-height: 70px;
+  font-size: 20px;
+}
+.sortPanel select {
+  width: 155px;
+  font-size: 17px;
+  height: 30px;
+  margin-right: 4.5vw;
+  transform: translateY(-1px);
+}
+#eaglesList {
+  margin: 0px 15px 100px 15px;
+  padding: 20px 0;
+  list-style: none;
+}
+.eaglesItems {
+  margin: 0 auto;
+  padding: 0;
+  height: fit-content;
+  width: 94%;
+  border-top: 7px solid white;
+  background-color: #232528;
+  color: white;
+  transition: 0.5s;
+}
+.eaglesItems:hover {
+  background-color: #003b7a;
+}
+.eaglesTitle {
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 65px;
+  align-items: center;
+  cursor: pointer;
+}
+.eaglesTitle h2 {
+  margin: 7px 0;
+  padding: 0;
+  font-size: 25px;
+  line-height: 50px;
+}
+.eaglesTitleName {
+  padding-left: 10px;
+  font-size: 30px;
+}
+.eaglesTitle img {
+  width: 32px;
+  transition: 0.3s;
+}
+.expandActive {
+  transform: rotate(90deg);
+}
+.eaglesContent {
+  padding-top: 10px;
+  height: fit-content;
+  width: 100%;
+  display: grid;
+}
+.eaglesContent img {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.eaglesSummary {
+  line-height: 25px;
+  font-size: 3.2vw;
+  padding: 20px;
+  text-indent: 20px;
+}
+@media screen and (max-width: 700px) {
+  .eaglesContent img {
+    width: 50vw;
+  }
+  .eaglesTitle h2 {
+    font-size: 4vw;
+  }
+  .eaglesTitleName {
+    font-size: 5vw;
+  }
+}
+@media screen and (min-width: 700px) {
+  .eaglesContent {
+    grid-template-columns: 30vw 1fr;
+  }
+  .eaglesContent img {
+    max-width: 250px;
+    width: 25vw;
+  }
+  .eaglesSummary {
+    padding: 0 30px 0 0;
+    font-size: 1.7vw;
+  }
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troop 208 Gallery</title>
+
+    <link rel='stylesheet' href='../css/main.css'>
+    <link rel='stylesheet' href='../css/gallery.css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class='header' id='mobile'>
+        <div>
+            <a class='mobileMenuIcon' onclick=openMobileMenu()>
+                <img src='../images/menu.svg' draggable="false">
+            </a>
+        </div>
+        <div class='mobileLogoContainer'>
+            <a href='../index.html'>
+                <img src='../images/BSA.svg' class='mobileHeaderLogo' draggable="false">
+            </a>
+        </div>
+        <div></div>
+    </div>
+    <div id='mobileMenuContainer'>
+        <div class='mobileMenuTop'>
+            <div>
+
+            </div>
+            <h1 class='mobileMenuTitle'>
+                Menu
+            </h1>
+            <div class='mobileMenuRight'>
+                <a onclick=closeMobileMenu()>
+                    <img src='../images/exit.svg' draggable="false">
+                </a>    
+            </div>
+        </div>
+        <ul class='mobileMenuLinks'>
+            <li>
+                <div></div>
+                <a href='../pages/calendar.html'>Calendar</a>
+            </li>
+            <li>
+                <div></div>
+                <a href='../pages/gallery.html'>Gallery</a>
+            </li>
+            <li>
+                <div></div>
+                <a href='../pages/eaglesnest.html'>Eagle's Nest</a>
+            </li>
+            <li>
+                <div></div>
+                <a href='../pages/resources.html'>Resources</a>
+            </li>
+            <li>
+                <div></div>
+                <a href='../pages/contact.html'>Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <div class='header' id='desktop'>
+        <div>
+            <a href='../index.html' class='desktopHeaderLogoContainer'> 
+                <img src='../images/BSA2.svg' draggable="false">
+            </a>
+        </div>
+        <div class='desktopHeaderRight'>
+            <div class='desktopNav'>
+                <a href='../index.html'>
+                    Home
+                </a>
+                <a href='../pages/calendar.html'>
+                    Calendar
+                </a>
+                <a href='../pages/gallery.html' id='currentPage'>
+                    Gallery
+                </a>
+                <a href='../pages/eaglesnest.html'>
+                    Eagle's&nbsp;Nest
+                </a>
+                <a href='../pages/resources.html'>
+                    Resources
+                </a>
+                <a href='../pages/contact.html'>
+                    Contact&nbsp;Us
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class='contentContainer'>
+        <div class='pageOverlay'></div>
+        <div class='albumsContainer'>
+            <div class='album'>
+                <div class='albumCover'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket9:11(COVER).jpeg' draggable="false">
+                    <h2>Flea Market 2021</h2>
+                </div>
+                <div class='galleryImages'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket9:11(COVER).jpeg' draggable="false" class='inactive landscape imageFirst'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket.jpeg' draggable="false" class='inactive landscape'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket2.jpeg' draggable="false" class='inactive landscape'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket4.jpeg' draggable="false" class='inactive landscape'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket5.jpeg' draggable="false" class='inactive landscape'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket6.jpeg' draggable="false" class='inactive landscape'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket7.jpeg' draggable="false" class='inactive landscape'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket9:11(1).jpeg' draggable="false" class='inactive portrait'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket9:11(2).jpeg' draggable="false" class='inactive portrait'>
+                    <img src='../images/Flea Market 2021/imgFleaMarket9:11(3).jpeg' draggable="false" class='inactive portrait imageLast'>
+                </div>
+            </div>
+            <div class='album'>
+                <div class='albumCover'>
+                    <img src='../images/Summer Camp 2021/imgSummerCamp2.jpeg' draggable="false">
+                    <h2>Summer Camp 2021</h2>
+                </div>
+                <div class='galleryImages'>
+                    <img src='../images/Summer Camp 2021/imgSummerCamp2.jpeg' draggable="false" class='inactive landscape imageFirst'>
+                    <img src='../images/Summer Camp 2021/imgSummerCamp1.jpeg' draggable="false" class='inactive landscape'>
+                    <img src='../images/Summer Camp 2021/imgSummerCamp3.jpeg' draggable="false" class='inactive portrait'>
+                    <img src='../images/Summer Camp 2021/imgSummerCamp4.jpeg' draggable="false" class='inactive landscape'>
+                    <img src='../images/Summer Camp 2021/imgSummerCamp5.jpeg' draggable="false" class='inactive landscape imageLast'>
+                </div>
+            </div>
+        </div>
+        <div class='galleryImagesBottom'>
+            <div class='imagePreviousContainer'>
+                <img src='../images/prev.svg' draggable="false" class='imagePrevious'>
+            </div>
+            <div class='imageCaption'>
+                Caption
+            </div>
+            <div class='imageNextContainer'>
+                <img src='../images/next.svg' draggable="false" class='imageNext'>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <img src='../images/footer.png'>
+        <div class='footerBottom'>
+            <div>
+                <ul>
+                    <li><h2>Quick Links</h2></li>
+                    <li><a href='https://wfbsa.org' target="none">Westmoreland Fayette Council Website</a></li>
+                    <li><a href='https://www.wagion.org' target="none">Wagion 6 Lodge Website</a></li>
+                    <li><a href='https://www.ourlutheranchurch.org/' target="none">Emmanuel Lutheran Church Website</a></li>
+                </ul>
+                <ul>
+                    <li><h2>Social Media</h2></li>
+                    <li><a href='https://www.facebook.com/Troop208Export/' target="none">
+                        Facebook
+                    </a></li>
+                    <li><a href='' target="none">
+                        YouTube
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>   
+
+
+    <script src='../scripts/main.js'></script>
+    <script src='../scripts/gallery.js'></script>
+</body>
+</html>
