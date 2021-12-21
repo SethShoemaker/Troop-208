@@ -166,6 +166,7 @@ footer img {
 }
 .footerBottom {
   background-color: #003b7a;
+  padding-bottom: 100px;
 }
 .footerBottom div {
   display: flex;
@@ -186,29 +187,6 @@ footer img {
 .footerBottom div ul li a:hover {
   text-decoration: underline;
 }
-
-@media screen and (min-width: 750px) {
-  .footerBottom div ul {
-    margin: 0 3vw 50px 3vw;
-    padding: 0;
-  }
-  .footerBottom div ul li h2 {
-    font-size: 27px;
-  }
-  .footerBottom div ul li {
-    font-size: 20px;
-    line-height: 32px;
-  }
-}
-@media screen and (max-width: 940px) {
-  .footerBottom div ul li h2 {
-    font-size: 23px;
-  }
-  .footerBottom div ul li {
-    font-size: 16px;
-    line-height: 28px;
-  }
-}
 @media screen and (max-width: 750px) {
   .footerBottom div {
     margin: 0 0 50px 3vw;
@@ -225,5 +203,27 @@ footer img {
   .footerBottom div ul li {
     font-size: 15px;
     line-height: 26px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .footerBottom div ul li h2 {
+    font-size: 23px;
+  }
+  .footerBottom div ul li {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 940px) {
+  .footerBottom div ul {
+    margin: 0 3vw 50px 3vw;
+    padding: 0;
+  }
+  .footerBottom div ul li h2 {
+    font-size: 27px;
+  }
+  .footerBottom div ul li {
+    font-size: 20px;
+    line-height: 32px;
   }
 }
