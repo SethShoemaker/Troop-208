@@ -69,7 +69,7 @@
   width: auto;
   height: auto;
   max-height: 85vh;
-  max-width: 85vw;
+  max-width: 70vw;
 }
 .inactive {
   display: none;
