@@ -14,14 +14,6 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
-/* 
-lighet tan #E9E9E4
-  #D6CEBD Scouting Light Tan
-  #232528 Scouting Dark Grey
-  #006B3F Venturing Green
-  #004C2C Dark Green
-  #003b7a blue
-*/
 .header {
   position: fixed;
   top: 0;
@@ -147,7 +139,7 @@ lighet tan #E9E9E4
   cursor: pointer;
 }
 .mobileMenuLinks {
-  margin: 0;
+  margin: 20px 0 0 0;
   padding: 0;
   list-style: none;
   text-align: center;
