@@ -6,12 +6,22 @@
   border-bottom: 2px solid #000;
   cursor: default;
 }
-@media screen and (min-width: 430px) {
+@media screen and (max-width: 320px) {
+  .contentContainer h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contentContainer h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 480px) {
   .contentContainer h1 {
     font-size: 63px;
   }
 }
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 650px) {
   .contentContainer h1 {
     font-size: 90px;
   }
