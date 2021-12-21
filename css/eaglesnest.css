@@ -1,32 +1,28 @@
-.eaglesHeader {
-  height: 40vh;
-  border-bottom: 2px solid #000;
-}
-.eaglesHeader h1 {
-  color: black;
+.contentContainer h1 {
   margin: 0;
-  padding-top: 14px;
+  padding: 14px;
   font-size: 45px;
   text-align: center;
+  border-bottom: 2px solid #000;
   cursor: default;
 }
 @media screen and (min-width: 430px) {
-  .eaglesHeader h1 {
+  .contentContainer h1 {
     font-size: 63px;
   }
 }
 @media screen and (min-width: 620px) {
-  .eaglesHeader h1 {
+  .contentContainer h1 {
     font-size: 90px;
   }
 }
 @media screen and (min-width: 960px) {
-  .eaglesHeader h1 {
+  .contentContainer h1 {
     font-size: 110px;
   }
 }
 @media screen and (min-width: 1300px) {
-  .eaglesHeader h1 {
+  .contentContainer h1 {
     font-size: 120px;
   }
 }
@@ -34,7 +30,7 @@
   text-align: right;
 }
 .sortPanel label {
-  line-height: 70px;
+  line-height: 140px;
   font-size: 20px;
 }
 .sortPanel select {
