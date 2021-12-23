@@ -46,35 +46,35 @@
     font-size: 9vw;
   }
 }
-.welcome {
+.textBlock {
   margin-top: 30px;
   color: 3000;
   font-weight: 300;
 }
-.welcome h1 {
+.textBlock h1 {
   margin: 0;
   padding: 5px 0 0 0;
   text-align: center;
   font-size: 10vw;
 }
-.welcome p {
+.textBlock p {
   text-indent: 5vw;
   padding: 0 2vw;
   font-size: 5vw;
   color: #000;
 }
-.welcome p a {
+.textBlock p a {
   color: #ce1126;
   text-decoration: none;
 }
-.welcome p a:hover {
+.textBlock p a:hover {
   text-decoration: underline;
 }
 @media screen and (min-width: 790px) {
-  .welcome h1 {
+  .textBlock h1 {
     font-size: 63px;
   }
-  .welcome p {
+  .textBlock p {
     padding: 0 12vw;
     font-size: 27px;
   }
