@@ -1,5 +1,5 @@
 .heroImage {
-  margin: 0;
+  margin: 0 0 100px 0;
   padding: 0;
   background-image: url(../images/hero.jpeg);
   background-size: cover;
@@ -47,37 +47,33 @@
   }
 }
 .textBlock {
-  margin-top: 30px;
-  color: 3000;
-  font-weight: 300;
+  margin-bottom: 100px;
 }
-.textBlock h1 {
-  margin: 0;
-  padding: 5px 0 0 0;
+h1 {
   text-align: center;
-  font-size: 10vw;
+  font-size: 9vw;
 }
-.textBlock p {
+h2 {
+  text-align: center;
+  font-size: 7vw;
+}
+h3 {
+  padding: 0 2vw;
+  font-size: 4vw;
+}
+p {
   text-indent: 5vw;
   padding: 0 2vw;
-  font-size: 5vw;
   color: #000;
+  font-weight: 300;
+  font-size: 3.5vw;
 }
-.textBlock p a {
+p a {
   color: #ce1126;
   text-decoration: none;
 }
-.textBlock p a:hover {
+p a:hover {
   text-decoration: underline;
-}
-@media screen and (min-width: 790px) {
-  .textBlock h1 {
-    font-size: 63px;
-  }
-  .textBlock p {
-    padding: 0 12vw;
-    font-size: 27px;
-  }
 }
 .join {
   display: block;
