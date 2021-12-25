@@ -38,6 +38,25 @@
   text-align: center;
   font-size: 8vw;
   color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+@media screen and (min-width: 550px) {
+  #albumsFirst {
+    margin-top: auto;
+  }
+  .albumsContainer {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 3vh;
+  }
+  .albumCover {
+    width: 40vw;
+    margin: 3.5vh auto;
+    padding: 2vw 2vw 0 2vw;
+  }
+  .albumCover h2 {
+    line-height: 6vw;
+    font-size: 3.4vw;
+  }
 }
 @media screen and (min-width: 700px) {
   #albumsFirst {
