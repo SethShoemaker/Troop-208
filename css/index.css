@@ -5,7 +5,6 @@
   background-size: cover;
   background-position: center center;
   height: calc(100vh - 75px);
-  min-height: 500px;
   width: 100%;
 }
 .herotextContainer {
@@ -26,17 +25,21 @@
   color: #fff;
   font-weight: 600;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .mainHeroText {
   margin: 0;
   padding: 0;
   font-size: 120px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
 }
 .subHeroText {
   margin: 0;
   padding: 0;
   font-size: 70px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
 }
 @media screen and (max-width: 700px) {
   .mainHeroText {
@@ -59,13 +62,13 @@ h2 {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
 }
 h3 {
   display: block;
   margin: 40px auto 10px auto;
   width: 80vw;
-  font-size: 35px;
+  font-size: 28px;
 }
 p {
   display: block;
@@ -74,7 +77,7 @@ p {
   text-indent: 5vw;
   color: #000;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 22px;
 }
 p a {
   color: #ce1126;
