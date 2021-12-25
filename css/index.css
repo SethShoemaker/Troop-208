@@ -11,7 +11,6 @@
   margin: 0;
   padding: 0;
   height: calc(100vh - 75px);
-  min-height: 500px;
   width: 100vw;
   background-color: rgb(0, 0, 0, 0.6);
   display: grid;
@@ -20,7 +19,7 @@
 .heroText {
   display: block;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 110px;
   cursor: default;
   color: #fff;
   font-weight: 600;
@@ -42,33 +41,18 @@
   color: #fff;
 }
 @media screen and (max-width: 700px) {
+  .heroImage {
+    height: calc(100vh - 60px);
+  }
+  .herotextContainer {
+    height: calc(100vh - 60px);
+  }
   .mainHeroText {
     font-size: 13vw;
   }
   .subHeroText {
     font-size: 9vw;
   }
-}
-.textBlock {
-  margin-bottom: 80px;
-}
-h1 {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size: 70px;
-}
-h2 {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size: 50px;
-}
-h3 {
-  display: block;
-  margin: 40px auto 10px auto;
-  width: 80vw;
-  font-size: 28px;
 }
 p {
   display: block;
@@ -85,37 +69,4 @@ p a {
 }
 p a:hover {
   text-decoration: underline;
-}
-@media screen and (max-width: 700px) {
-  h1 {
-    font-size: 8vw;
-  }
-  h2 {
-    font-size: 6vw;
-  }
-  h3 {
-    font-size: 4vw;
-  }
-  p {
-    font-size: 4vw;
-  }
-}
-.join {
-  display: block;
-  margin: 50px auto;
-  height: 75px;
-  width: 30vw;
-  max-width: 250px;
-  border: 5px solid #ce1126;
-  border-radius: 20px;
-  font-size: 40px;
-  color: #ce1126;
-  font-weight: 800;
-  line-height: 75px;
-  text-align: center;
-  text-decoration: none;
-}
-.join div {
-  display: block;
-  margin: auto;
 }

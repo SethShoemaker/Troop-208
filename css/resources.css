@@ -1,46 +1,7 @@
-.contentContainer h1 {
-  margin: 0;
-  padding: 14px;
-  font-size: 45px;
-  text-align: center;
-  border-bottom: 2px solid #000;
-  cursor: default;
-}
-@media screen and (max-width: 320px) {
-  .contentContainer h1 {
-    font-size: 35px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .contentContainer h1 {
-    font-size: 40px;
-  }
-}
-@media screen and (min-width: 480px) {
-  .contentContainer h1 {
-    font-size: 63px;
-  }
-}
-@media screen and (min-width: 650px) {
-  .contentContainer h1 {
-    font-size: 90px;
-  }
-}
-@media screen and (min-width: 960px) {
-  .contentContainer h1 {
-    font-size: 110px;
-  }
-}
-@media screen and (min-width: 1300px) {
-  .contentContainer h1 {
-    font-size: 120px;
-  }
-}
 .contentContainer ul {
   margin-bottom: 200px;
   list-style: none;
 }
-
 .contentContainer ul li a {
   font-size: 30px;
   color: black;

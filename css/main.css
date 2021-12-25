@@ -14,37 +14,23 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
-h1 {
-  color: #ce1126;
-  font-family: "Roboto Slab", serif;
-}
-h2 {
-  color: #ce1126;
-  font-family: "Roboto Slab", serif;
-}
 .header {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #003b7a;
   align-items: center;
-  display: grid;
   border-bottom: 1px solid black;
-  height: 80px;
 }
 #desktop {
   grid-template-columns: 1fr 2fr;
+  height: 80px;
+  display: none;
 }
 #mobile {
   grid-template-columns: 1fr 3fr 1fr;
-}
-@media screen and (max-width: 700px) {
-  #mobile {
-    display: grid;
-  }
-  #desktop {
-    display: none;
-  }
+  height: 60px;
+  display: grid;
 }
 @media screen and (min-width: 700px) {
   #mobile {
@@ -59,54 +45,15 @@ h2 {
   cursor: pointer;
 }
 .mobileMenuIcon img {
-  height: 30px;
+  height: 25px;
 }
 .mobileLogoContainer {
   text-align: center;
 }
 .mobileLogoContainer a img {
-  height: 75px;
-}
-.desktopHeaderLogoContainer {
-  margin-left: 45px;
-}
-.desktopHeaderLogoContainer img {
   padding-top: 2.5px;
-  height: 75px;
+  height: 55px;
 }
-.desktopHeaderRight {
-  margin-right: 20px;
-  text-align: right;
-}
-.desktopHeaderRight a {
-  margin: 0 2px;
-  padding: 2px 2px 2px 7px;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 400;
-  text-decoration: none;
-}
-.desktopHeaderRight a:hover {
-  transition: 0.2s;
-  color: #cfcfcf;
-}
-#currentPage {
-  color: #ce1126;
-}
-@media screen and (min-width: 1000px) {
-  .desktopHeaderRight {
-    margin-right: 50px;
-  }
-  .desktopHeaderRight a {
-    font-size: 22px;
-    margin: 0 8px;
-  }
-  #currentPage {
-    border-bottom: none;
-  }
-}
-
 #mobileMenuContainer {
   position: fixed;
   top: 0;
@@ -117,8 +64,7 @@ h2 {
   transform: translateX(-150vw);
   transition: transform 0.4s;
 }
-
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 700px) {
   #mobileMenuContainer {
     display: none;
   }
@@ -132,8 +78,8 @@ h2 {
   margin: 0px;
   padding: 25px 0 0 0;
   height: 50px;
-  color: black;
-  font-size: 10vh;
+  color: #ce1126;
+  font-size: 11vh;
   font-weight: 200;
   text-align: center;
 }
@@ -147,7 +93,7 @@ h2 {
   cursor: pointer;
 }
 .mobileMenuLinks {
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 0;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -159,9 +105,43 @@ h2 {
   font-size: 5vh;
   text-decoration: none;
 }
+.desktopHeaderLogoContainer {
+  margin-left: 45px;
+}
+.desktopHeaderLogoContainer img {
+  padding-top: 5px;
+  height: 70px;
+}
+.desktopHeaderRight {
+  margin-right: 30px;
+  text-align: right;
+}
+.desktopHeaderRight a {
+  margin: 0 4px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.desktopHeaderRight a:hover {
+  transition: 0.2s;
+  color: #cfcfcf;
+}
+@media screen and (min-width: 1000px) {
+  .desktopHeaderRight a {
+    font-size: 21px;
+    margin: 0 12px;
+  }
+}
 .contentContainer {
-  margin-top: 80px;
+  margin-top: 60px;
   min-height: 700px;
+}
+@media screen and (min-width: 700px) {
+  .contentContainer {
+    margin-top: 60px;
+  }
 }
 footer {
   display: grid;
@@ -203,7 +183,7 @@ footer img {
 }
 @media screen and (max-width: 785px) {
   .footerBottom div {
-    margin: 0 0 70px 3vw;
+    margin: 0 0 120px 3vw;
     flex-direction: column;
   }
   .footerBottom div ul {
