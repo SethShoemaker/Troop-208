@@ -128,17 +128,17 @@ body {
   transition: 0.2s;
   color: #cfcfcf;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .desktopHeaderRight a {
     font-size: 21px;
-    margin: 0 12px;
+    margin: 0 11px;
   }
 }
 .contentContainer {
-  margin-top: 60px;
+  margin-top: 80px;
   min-height: 700px;
 }
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 700px) {
   .contentContainer {
     margin-top: 60px;
   }
