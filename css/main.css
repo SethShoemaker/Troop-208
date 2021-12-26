@@ -17,7 +17,7 @@ body {
 h1 {
   margin: 0;
   padding: 10px;
-  color: red;
+  color: #ce1126;
   font-family: "Roboto Slab", serif;
   text-align: center;
   font-weight: 600;
@@ -26,10 +26,19 @@ h1 {
 h2 {
   margin: 0;
   padding: 10px;
-  color: red;
+  color: #ce1126;
   font-family: "Roboto Slab", serif;
   text-align: center;
-  font-size: 60px;
+  font-weight: 600;
+  font-size: 70px;
+}
+h3 {
+  margin: 0;
+  padding: 5px;
+  color: #ce1126;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
 }
 .header {
   position: fixed;
