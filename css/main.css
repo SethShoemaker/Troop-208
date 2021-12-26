@@ -14,6 +14,22 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+h1 {
+  margin: 0;
+  padding: 10px;
+  color: red;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 80px;
+}
+h2 {
+  margin: 0;
+  padding: 10px;
+  color: red;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 60px;
+}
 .header {
   position: fixed;
   top: 0;
@@ -170,7 +186,7 @@ footer img {
 }
 .footerBottom div ul li h2 {
   text-align: left;
-  padding-bottom: 5px;
+  padding: 0 0 7px 0;
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
 }
