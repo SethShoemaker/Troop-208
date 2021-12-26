@@ -25,20 +25,50 @@ h1 {
 }
 h2 {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   color: #ce1126;
   font-family: "Roboto Slab", serif;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 70px;
 }
 h3 {
   margin: 0;
-  padding: 5px;
+  padding: 0;
   color: #ce1126;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
+}
+p {
+  display: block;
+  margin: 20px auto;
+  width: 80vw;
+  text-indent: 5vw;
+  color: #000;
+  font-weight: 300;
+  font-size: 22px;
+}
+p a {
+  color: #ce1126;
+  text-decoration: none;
+}
+p a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 9vw;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  p {
+    font-size: 3.5vw;
+  }
 }
 .header {
   position: fixed;
@@ -119,7 +149,7 @@ h3 {
   cursor: pointer;
 }
 .mobileMenuLinks {
-  margin: 30px 0 0 0;
+  margin: 50px 0 0 0;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -217,11 +247,11 @@ footer img {
     padding: 0;
   }
   .footerBottom div ul li h2 {
-    font-size: 32px;
+    font-size: 6vw;
     margin: 20px 0 5px 0;
   }
   .footerBottom div ul li {
-    font-size: 20px;
+    font-size: 3.5vw;
     line-height: 32px;
   }
 }

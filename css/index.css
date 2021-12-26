@@ -54,19 +54,3 @@
     font-size: 9vw;
   }
 }
-p {
-  display: block;
-  margin: 20px auto;
-  width: 80vw;
-  text-indent: 5vw;
-  color: #000;
-  font-weight: 300;
-  font-size: 22px;
-}
-p a {
-  color: #ce1126;
-  text-decoration: none;
-}
-p a:hover {
-  text-decoration: underline;
-}
