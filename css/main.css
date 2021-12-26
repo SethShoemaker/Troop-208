@@ -20,6 +20,7 @@ h1 {
   color: red;
   font-family: "Roboto Slab", serif;
   text-align: center;
+  font-weight: 600;
   font-size: 80px;
 }
 h2 {
