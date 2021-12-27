@@ -26,9 +26,6 @@
   color: white;
   transition: 0.5s;
 }
-.eaglesItems:hover {
-  background-color: #003b7a;
-}
 .eaglesTitle {
   padding-left: 10px;
   display: grid;

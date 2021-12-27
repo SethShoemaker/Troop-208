@@ -1,3 +1,23 @@
+$('.eaglesContent').hide();
+$('.eaglesTitle').click(function(){
+    $(this).find('img').toggleClass('expandActive');
+    $(this).next('.eaglesContent').slideToggle();
+})
+function sortSelect(selectedValue){
+    if(selectedValue === 'sortOld')
+    {
+        sortOld();
+    }
+    else if (selectedValue === 'sortNew'){
+        sortNew();
+    }
+    else if(selectedValue === 'nameAZ') {
+        nameAZ();
+    }
+    else{
+        nameZA();
+    }
+}
 function sortNew() 
 {
     var eaglesList = $('#eaglesList');
@@ -74,23 +94,3 @@ function nameZA()
     }
     ).appendTo(eaglesList);	  
 }
-function test(selectedValue){
-    if(selectedValue === 'sortOld')
-    {
-        sortOld();
-    }
-    else if (selectedValue === 'sortNew'){
-        sortNew();
-    }
-    else if(selectedValue === 'nameAZ') {
-        nameAZ();
-    }
-    else{
-        nameZA();
-    }
-}
-$('.eaglesContent').hide();
-$('.eaglesTitle').click(function(){
-    $(this).find('img').toggleClass('expandActive');
-    $(this).next('.eaglesContent').slideToggle();
-})
