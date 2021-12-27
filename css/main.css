@@ -15,6 +15,7 @@ body {
   display: none;
 }
 h1 {
+  cursor: default;
   margin: 0;
   padding: 10px;
   color: #ce1126;
@@ -24,6 +25,7 @@ h1 {
   font-size: 80px;
 }
 h2 {
+  cursor: default;
   margin: 0;
   padding: 0;
   color: #ce1126;
@@ -33,6 +35,7 @@ h2 {
   font-size: 70px;
 }
 h3 {
+  cursor: default;
   margin: 0;
   padding: 0;
   color: #ce1126;

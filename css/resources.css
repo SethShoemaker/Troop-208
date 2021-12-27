@@ -17,5 +17,5 @@
   }
 }
 .contentContainer ul li a:hover {
-  color: #ce1126;
+  text-decoration: underline;
 }
