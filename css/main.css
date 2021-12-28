@@ -59,7 +59,7 @@ p a:hover {
 }
 @media screen and (max-width: 700px) {
   h1 {
-    font-size: 9vw;
+    font-size: 11vw;
   }
   h2 {
     font-size: 8vw;
@@ -216,13 +216,13 @@ footer img {
   display: flex;
 }
 .footerBottom div ul {
-  margin-right: 30px;
+  width: calc(fit-content + 2vw);
+  border-left: 2px solid #fff;
   list-style: none;
-  width: fit-content;
-  color: white;
-  fill: white;
+  color: #fff;
 }
 .footerBottom div ul li {
+  padding-left: 12px;
   cursor: default;
 }
 .footerBottom div ul li h2 {
@@ -240,12 +240,12 @@ footer img {
 }
 @media screen and (max-width: 785px) {
   .footerBottom div {
-    margin: 0 0 120px 3vw;
+    margin: 0 0 70px 3vw;
     flex-direction: column;
   }
   .footerBottom div ul {
-    margin: 0;
-    padding: 0;
+    margin: 0 0 30px 0;
+    padding: 0 0 10px 0;
   }
   .footerBottom div ul li h2 {
     font-size: 22px;
@@ -258,8 +258,8 @@ footer img {
 }
 @media screen and (min-width: 785px) {
   .footerBottom div {
-    margin-bottom: 50px;
-    flex-direction: row;
+    margin: 0 20px 50px 0;
+    flex-direction: row-reverse;
   }
   .footerBottom div ul {
     margin-left: 3vw;
