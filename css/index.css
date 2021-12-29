@@ -61,3 +61,10 @@ p {
   width: 80vw;
   text-indent: 5vw;
 }
+.facebook {
+  
+}
+.facebook iframe {
+  width: 60vw;
+  margin: auto;
+}
