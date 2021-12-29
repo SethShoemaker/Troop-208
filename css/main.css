@@ -44,8 +44,6 @@ h3 {
   font-size: 40px;
 }
 p {
-  padding: 3vh 0 6vh 0;
-  text-indent: 5vw;
   color: #000;
   font-weight: 300;
   font-size: 22px;
@@ -150,7 +148,7 @@ p a:hover {
   cursor: pointer;
 }
 .mobileMenuLinks {
-  margin: 20px 0 0 0;
+  margin: 40px 0 0 0;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -240,7 +238,7 @@ footer img {
 }
 @media screen and (max-width: 785px) {
   .footerBottom div {
-    margin: 0 0 70px 3vw;
+    margin: 0 0 90px 3vw;
     flex-direction: column;
   }
   .footerBottom div ul {

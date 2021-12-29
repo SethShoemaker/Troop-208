@@ -2,8 +2,9 @@
   margin: 0 0 40px 0;
   padding: 0;
   background-image: url(../images/hero.jpeg);
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: center bottom;
   height: calc(100vh - 80px);
   width: 100%;
 }
@@ -55,6 +56,8 @@
   }
 }
 p {
-  width: 80vw;
   margin: 0 auto;
+  padding: 3vh 0 6vh 0;
+  width: 80vw;
+  text-indent: 5vw;
 }
