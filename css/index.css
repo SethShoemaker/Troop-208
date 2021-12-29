@@ -62,9 +62,8 @@ p {
   text-indent: 5vw;
 }
 .facebook {
-  
 }
 .facebook iframe {
-  width: 60vw;
-  margin: auto;
+  display: block;
+  margin: 20px auto;
 }
