@@ -259,7 +259,7 @@ footer img {
 @media screen and (min-width: 785px) {
   .footerBottom div {
     margin: 0 20px 50px 0;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
   .footerBottom div ul {
     margin-left: 3vw;
