@@ -30,12 +30,6 @@
   -webkit-box-shadow: 0 0 10px #707070;
   -o-box-shadow: 0 0 10px #707070;
 }
-.gallery div img:hover {
-  box-shadow: 0 0 10px #000;
-  -moz-box-shadow: 0 0 10px #000;
-  -webkit-box-shadow: 0 0 10px #000;
-  -o-box-shadow: 0 0 10px #000;
-}
 @media screen and (min-width: 700px) {
   .gallery {
     padding: 10px;
@@ -48,6 +42,16 @@
   }
   .gallery div img {
     margin: 15px;
+    box-shadow: 0 0 10px #70707070;
+    -moz-box-shadow: 0 0 10px #707070;
+    -webkit-box-shadow: 0 0 10px #707070;
+    -o-box-shadow: 0 0 10px #707070;
+  }
+  .gallery div img:hover {
+    box-shadow: 0 0 10px #000;
+    -moz-box-shadow: 0 0 10px #000;
+    -webkit-box-shadow: 0 0 10px #000;
+    -o-box-shadow: 0 0 10px #000;
   }
 }
 
