@@ -8,7 +8,6 @@
   background-color: rgb(0, 0, 0, 0.8);
 }
 .gallery {
-  padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -21,26 +20,6 @@
 }
 .gallery div:last-of-type {
   padding-top: 30px;
-}
-@media screen and (min-width: 700px) {
-  #desktopRow2 {
-    padding-top: 70px;
-  }
-  #desktopRow3 {
-    padding-top: 40px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .gallery {
-    grid-template-columns: 1fr 1fr;
-  }
-  .gallery div {
-    padding-top: 0;
-  }
-  .gallery div:first-of-type {
-    padding-top: inherit;
-  }
 }
 .gallery div img {
   cursor: pointer;
@@ -56,6 +35,36 @@
   -moz-box-shadow: 0 0 10px #000;
   -webkit-box-shadow: 0 0 10px #000;
   -o-box-shadow: 0 0 10px #000;
+}
+@media screen and (min-width: 700px) {
+  .gallery {
+    padding: 10px;
+  }
+  #desktopRow2 {
+    padding-top: 70px;
+  }
+  #desktopRow3 {
+    padding-top: 40px;
+  }
+  .gallery div img {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    padding: 3px;
+  }
+  .gallery div {
+    padding-top: 0;
+  }
+  .gallery div:first-of-type {
+    padding-top: inherit;
+  }
+  .gallery div img {
+    margin: 3px;
+  }
 }
 .imageActive {
   position: absolute;
