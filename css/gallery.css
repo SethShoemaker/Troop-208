@@ -13,7 +13,6 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 .gallery div {
-  padding-top: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -22,6 +21,26 @@
 }
 .gallery div:last-of-type {
   padding-top: 30px;
+}
+@media screen and (min-width: 700px) {
+  #desktopRow2 {
+    padding-top: 70px;
+  }
+  #desktopRow3 {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery div {
+    padding-top: 0;
+  }
+  .gallery div:first-of-type {
+    padding-top: inherit;
+  }
 }
 .gallery div img {
   cursor: pointer;
