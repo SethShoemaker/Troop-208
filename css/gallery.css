@@ -29,6 +29,7 @@
 @media screen and (min-width: 700px) {
   .gallery {
     padding: 10px;
+    margin-bottom: 100px;
   }
   #desktopRow2 {
     padding-top: 70px;
@@ -55,6 +56,7 @@
   .gallery {
     grid-template-columns: 1fr 1fr;
     padding: 3px;
+    margin-bottom: 30px;
   }
   .gallery div {
     padding-top: 0;
