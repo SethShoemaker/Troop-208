@@ -25,10 +25,6 @@
   cursor: pointer;
   max-width: 100%;
   margin: 15px;
-  box-shadow: 0 0 10px #70707070;
-  -moz-box-shadow: 0 0 10px #707070;
-  -webkit-box-shadow: 0 0 10px #707070;
-  -o-box-shadow: 0 0 10px #707070;
 }
 @media screen and (min-width: 700px) {
   .gallery {
@@ -80,8 +76,4 @@
   height: auto;
   max-height: 85vh;
   max-width: 70vw;
-  box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  -o-box-shadow: none;
 }
