@@ -134,7 +134,7 @@ p a:hover {
   padding: 25px 0 0 0;
   height: 50px;
   color: #000;
-  font-size: 11vh;
+  font-size: 9vh;
   font-weight: 200;
   text-align: center;
 }
@@ -148,16 +148,16 @@ p a:hover {
   cursor: pointer;
 }
 .mobileMenuLinks {
-  margin: 40px 0 0 0;
+  margin: 5.5vh 0 0 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
 .mobileMenuLinks li a {
-  padding: 3.3vh;
+  padding: 3.5vh;
   display: block;
   color: black;
-  font-size: 5vh;
+  font-size: 3.5vh;
   text-decoration: none;
 }
 .desktopHeaderLogoContainer {
