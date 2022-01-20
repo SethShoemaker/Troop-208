@@ -215,7 +215,6 @@ footer img {
 }
 .footerBottom div ul {
   width: calc(fit-content + 2vw);
-  border-left: 2px solid #fff;
   list-style: none;
   color: #fff;
 }
