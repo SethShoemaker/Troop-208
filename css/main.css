@@ -17,12 +17,13 @@ body {
 h1 {
   cursor: default;
   margin: 0;
-  padding: 10px;
+  padding: 5vh;
   color: #ce1126;
   font-family: "Roboto Slab", serif;
   text-align: center;
   font-weight: 600;
-  font-size: 80px;
+  font-size: 100px;
+  letter-spacing: 3px;
 }
 h2 {
   cursor: default;
@@ -32,21 +33,24 @@ h2 {
   font-family: "Roboto Slab", serif;
   text-align: center;
   font-weight: 500;
-  font-size: 70px;
+  font-size: 60px;
+  letter-spacing: 0.5px;
 }
 h3 {
   cursor: default;
   margin: 0;
   padding: 0;
   color: #ce1126;
+  font-family: "Roboto Slab", serif;
   text-align: center;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 35px;
+  letter-spacing: 0.5px;
 }
 p {
   color: #000;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 20px;
 }
 p a {
   color: #ce1126;
