@@ -73,7 +73,7 @@ p a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #003b7a;
+  background-color: #243e2c;
   align-items: center;
   border-bottom: 1px solid black;
 }
@@ -208,7 +208,7 @@ footer img {
   bottom: 0;
 }
 .footerBottom {
-  background-color: #003b7a;
+  background-color: #243e2c;
 }
 .footerBottom div {
   display: flex;
