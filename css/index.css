@@ -3,10 +3,11 @@
 }
 .header {
   background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.25s ease;
 }
 .hero {
   display: flex;
-  margin: 0;
+  margin: 0 0 15vh 0;
   padding: 0;
   background-image: url(../images/heroDark.jpg);
   background-attachment: fixed;
@@ -21,7 +22,7 @@
   width: 70%;
 }
 .hero div h1 {
-  font-size: 11vw;
+  font-size: 10vw;
   color: #fff !important;
 }
 .hero div h2 {
