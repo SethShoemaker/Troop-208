@@ -14,7 +14,7 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
-h1 {
+.contentContainer h1 {
   cursor: default;
   margin: 0;
   padding: 5vh;
@@ -25,7 +25,7 @@ h1 {
   font-size: 100px;
   letter-spacing: 3px;
 }
-h2 {
+.contentContainer h2 {
   cursor: default;
   margin: 0;
   padding: 0;
@@ -36,7 +36,7 @@ h2 {
   font-size: 60px;
   letter-spacing: 0.5px;
 }
-h3 {
+.contentContainer h3 {
   cursor: default;
   margin: 0;
   padding: 0;
@@ -47,29 +47,29 @@ h3 {
   font-size: 35px;
   letter-spacing: 0.5px;
 }
-p {
+.contentContainer p {
   color: #000;
   font-weight: 300;
   font-size: 20px;
 }
-p a {
+.contentContainer p a {
   color: #ce1126;
   text-decoration: none;
 }
-p a:hover {
+.contentContainer p a:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 700px) {
-  h1 {
+  .contentContainer h1 {
     font-size: 11vw;
   }
-  h2 {
+  .contentContainer h2 {
     font-size: 8vw;
   }
-  h3 {
+  .contentContainer h3 {
     font-size: 6vw;
   }
-  p {
+  .contentContainer p {
     font-size: 3.5vw;
   }
 }
@@ -89,7 +89,7 @@ p a:hover {
   grid-template-columns: 1fr 3fr 1fr;
   display: grid;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   #mobile {
     display: none;
   }
@@ -121,7 +121,7 @@ p a:hover {
   transform: translateX(-150vw);
   transition: transform 0.4s;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   #mobileMenuContainer {
     display: none;
   }
@@ -195,7 +195,7 @@ p a:hover {
   margin-top: 70px;
   min-height: 700px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .contentContainer {
     margin-top: 60px;
   }
@@ -212,64 +212,77 @@ footer img {
 .footerBottom {
   background-color: #172b1d;
 }
-.footerBottom div {
-  display: flex;
+.footerContentContainer {
+  padding: 0 0 10vh 0;
+  display: grid;
+  grid-template-columns: max-content max-content 1fr;
 }
-.footerBottom div ul {
-  width: calc(fit-content + 2vw);
+.footerContentContainer ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  color: #fff;
 }
-.footerBottom div ul li {
-  padding-left: 12px;
+.footerBottom .footerContentContainer ul li {
+  padding-left: 3vw;
+  color: #fff;
   cursor: default;
 }
-.footerBottom div ul li h2 {
-  text-align: left;
-  padding: 0 0 7px 0;
-  color: #fff;
-  font-family: "Roboto Condensed", sans-serif;
+.footerBottom .footerContentContainer ul li:first-of-type {
+  padding-right: 7vw;
 }
-.footerBottom div ul li a {
+.footerContentContainer ul h2 {
+  font-size: 34px;
   color: inherit;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+.footerContentContainer ul li a {
+  font-size: 19px;
+  color: inherit;
+  line-height: 35px;
   text-decoration: none;
 }
-.footerBottom div ul li a:hover {
-  text-decoration: underline;
+.footerContentContainer ul li span {
+  font-size: 19px;
+  color: inherit;
+  line-height: 35px;
 }
-@media screen and (max-width: 785px) {
-  .footerBottom div {
-    margin: 0 0 90px 3vw;
-    flex-direction: column;
-  }
-  .footerBottom div ul {
-    margin: 0 0 30px 0;
-    padding: 0 0 10px 0;
-  }
-  .footerBottom div ul li h2 {
-    font-size: 22px;
-    margin: 20px 0 5px 0;
-  }
-  .footerBottom div ul li {
-    font-size: 16px;
-    line-height: 24px;
-  }
+.socialMediaContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
-@media screen and (min-width: 785px) {
-  .footerBottom div {
-    margin: 0 20px 50px 0;
+.socialMediaContainer a {
+  margin-right: 3vw;
+}
+.socialMediaContainer a img {
+  width: 15vw;
+  max-width: 70px;
+}
+@media screen and (max-width: 800px) {
+  .footerContentContainer {
+    grid-template-columns: none;
+    grid-template-rows: auto;
+  }
+  .footerContentContainer ul {
+    padding-bottom: 3vh;
+  }
+  .footerContentContainer ul li h2 {
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+  .footerContentContainer ul li a {
+    font-size: 3vw;
+    line-height: 5vw;
+  }
+  .footerContentContainer ul li span {
+    font-size: 3vw;
+    line-height: 5vw;
+  }
+  .socialMediaContainer {
     flex-direction: row;
   }
-  .footerBottom div ul {
-    margin-left: 3vw;
-    padding: 0;
-  }
-  .footerBottom div ul li h2 {
-    font-size: 28px;
-    margin: 5px 0;
-  }
-  .footerBottom div ul li {
-    font-size: 18px;
-    line-height: 28px;
+  .socialMediaContainer a {
+    margin: 0 0 0 3vw;
   }
 }
