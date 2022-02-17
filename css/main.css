@@ -213,7 +213,7 @@ footer img {
   background-color: #172b1d;
 }
 .footerContentContainer {
-  padding: 0 0 10vh 0;
+  padding: 2vh 0 6vh 0;
   display: grid;
   grid-template-columns: max-content max-content 1fr;
 }
@@ -231,19 +231,19 @@ footer img {
   padding-right: 7vw;
 }
 .footerContentContainer ul h2 {
-  font-size: 34px;
+  font-size: 30px;
   color: inherit;
   line-height: 30px;
   letter-spacing: 1.2px;
 }
 .footerContentContainer ul li a {
-  font-size: 19px;
+  font-size: 17px;
   color: inherit;
   line-height: 35px;
   text-decoration: none;
 }
 .footerContentContainer ul li span {
-  font-size: 19px;
+  font-size: 17px;
   color: inherit;
   line-height: 35px;
 }
@@ -253,7 +253,7 @@ footer img {
   align-items: center;
 }
 .socialMediaContainer a {
-  margin-right: 3vw;
+  margin-right: 5vw;
 }
 .socialMediaContainer a img {
   width: 15vw;
@@ -284,5 +284,8 @@ footer img {
   }
   .socialMediaContainer a {
     margin: 0 0 0 3vw;
+  }
+  .socialMediaContainer a img {
+    max-width: 50px;
   }
 }

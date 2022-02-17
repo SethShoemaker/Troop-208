@@ -33,11 +33,11 @@
 }
 @media screen and (max-width: 700px) {
   .hero div h1 {
-    font-size: 12.5vw;
+    font-size: 65px;
     color: #fff !important;
   }
   .hero div h2 {
-    font-size: 9.5vw;
+    font-size: 45px;
     padding-bottom: 15vh;
   }
 }
@@ -48,9 +48,4 @@ p {
   max-width: 1200px;
   text-indent: 5vw;
   line-height: 32px;
-}
-@media screen and (max-width: 500px) {
-  p {
-    line-height: 19px;
-  }
 }
