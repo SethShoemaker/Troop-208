@@ -76,7 +76,7 @@
   background-color: #000;
   width: auto;
   height: auto;
-  max-height: 80vh;
+  max-height: 70vh;
   max-width: 90vw;
 }
 .imageCaption {
@@ -86,7 +86,7 @@
   position: absolute;
   height: 10vh;
   width: 100vw;
-  bottom: 0;
+  bottom: 2vh;
   left: 0;
   text-align: center;
   font-size: 4.5vw;
